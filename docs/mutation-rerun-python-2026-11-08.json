@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-08",
+  "scope": "Python-only mutation rerun of the supplied scaffold",
+  "generated": 434,
+  "killed": 425,
+  "assertion_failure_kills": 226,
+  "crash_kills": 199,
+  "survived": 9,
+  "timeouts": 0,
+  "invalid": 0,
+  "elapsed_seconds": 842.89,
+  "workers": 2,
+  "selected_test_invocations": 700,
+  "all_python_ids_match_historical_ledger": true,
+  "all_python_statuses_match_historical_ledger": true,
+  "c_mutants_rerun": 0,
+  "c_mutants_excluded": 12,
+  "c_exclusion_reason": "clang/wasm-ld toolchain unavailable",
+  "full_campaign_score": null,
+  "production_source_and_tests_changed": false,
+  "runner_adaptations": [
+    "task-owned temporary worker directories and guarded cleanup",
+    "Windows orchestration and UTF-8 capture",
+    "Python-only selection",
+    "per-invocation logs"
+  ],
+  "source_identity": "docs/SOURCE_MANIFEST.json",
+  "historical_full_ledger": "python/method/mutation_results.json"
+}

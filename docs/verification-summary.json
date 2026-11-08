@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-08",
+  "modules_passed": 10,
+  "pass_markers": 1286,
+  "fail_markers": 0,
+  "property_trials": 2350,
+  "wasm_rebuilt": false,
+  "source_files_unchanged": 47,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "node": "24.22.1",
+  "scope": "Final supplied test suite; prior campaign ledger is historical."
+}

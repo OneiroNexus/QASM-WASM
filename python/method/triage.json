@@ -1,0 +1,13 @@
+{
+  "_comment": "Verdict on every mutant that survives the campaign. Keys are the content-hash mutant ids printed by method/mutate.py (stable across line-number changes). run_method.sh refuses to regenerate BUILD_INDEX.md while a survivor has no entry here. Vocabulary: equivalent | config | accepted | gap.",
+
+  "AOR-6d0b6d6bdc": {"verdict": "accepted", "note": "fusion: seed + idx -> seed - idx. The specification is that distinct nodes get distinct shot-sampling seeds (and, via the pipeline, distinct ticks do too -- pinned by test_properties::P10). Any injective derivation satisfies it; pinning the arithmetic would over-specify a convention."},
+  "AOR-70ab1b0d8c": {"verdict": "accepted", "note": "pipeline: tick * 1_000_003 -> tick / 1000003. Still tick-distinct (P10 holds); the specification is distinctness, not the formula."},
+  "AOR-e870f1e708": {"verdict": "accepted", "note": "pipeline: seed + tick*p -> seed - tick*p. Still tick-distinct (P10 holds)."},
+  "CRP-d4f55b9b2d": {"verdict": "accepted", "note": "pipeline: the prime 1_000_003 -> 1000004. Still tick-distinct for every toy-scale node count (P10 holds); the prime is a convenience, not a requirement the tests should pin."},
+  "CRP-e953ce3811": {"verdict": "config", "note": "wasm_bridge: subprocess timeout 30 s -> 31 s. A configuration constant; no test should depend on it."},
+  "CRP-fed10ae8e4": {"verdict": "config", "note": "statevector_sim: parameter-expression length limit 200 -> 201. A defensive limit; its exact value is configuration."},
+  "ROR-41ee2f28ed": {"verdict": "config", "note": "statevector_sim: length limit > 200 vs >= 200. Same defensive limit; boundary of a configuration constant."},
+  "AGS-51b2622aea": {"verdict": "accepted", "note": "statevector_sim: eval(safe, {'__builtins__': {}}, {}) with globals/locals swapped. The character whitelist is the sandbox (no name can be spelled from [0-9eE+-*/(). ]); the empty __builtins__ is defense in depth and its removal is not observable through the whitelist. Recorded so a future widening of the whitelist re-examines it."},
+  "SDL-04e25c9f53": {"verdict": "accepted", "note": "statevector_sim: removing `cumulative[-1] = 1.0`. The line guards a ~1e-16 float-drift event (the last cumulative probability rounding to just under 1.0 while the random draw lands above it); not reachable by a test with any useful probability. Kept as a documented defensive line."}
+}

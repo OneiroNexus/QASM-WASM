@@ -1,0 +1,237 @@
+[
+  {
+    "path": "AGENTS.md",
+    "bytes": 13623,
+    "sha256": "2d25b1d6f9fe234d544990cf0146d4bf2b05b3607615d1cc34a77999077ff8c6"
+  },
+  {
+    "path": "ARCHITECTURE.md",
+    "bytes": 12562,
+    "sha256": "13b9fe78b8932cbf005799eb6c976bf2cebd884f3c2fcd3cfabca7a9aa61b83b"
+  },
+  {
+    "path": "BUILD_INDEX.md",
+    "bytes": 19853,
+    "sha256": "332f4e4e0d4b7504a8571e5ab3824ffb230b31a3cb351c6e31418b6fef250297"
+  },
+  {
+    "path": "python/fusion/__init__.py",
+    "bytes": 401,
+    "sha256": "5071d076674978739bed3ee65ca0c6f42a82607b2f34772ded63a793acd39666"
+  },
+  {
+    "path": "python/fusion/shared_space.py",
+    "bytes": 7571,
+    "sha256": "e11412322d4dada9a9360c0b25e703e8299b49b5470ad1359e059d916fb23a9f"
+  },
+  {
+    "path": "python/gnn/__init__.py",
+    "bytes": 326,
+    "sha256": "af2110857f62744ee3465fb4c119c76fc2e5f70491ea4b21577762c8e4801e40"
+  },
+  {
+    "path": "python/gnn/message_passing.py",
+    "bytes": 6969,
+    "sha256": "d763fb3b4e25b93adadd7b2eaabddd1df64f63704aa61be166c02ba4e6e4410e"
+  },
+  {
+    "path": "python/method/__init__.py",
+    "bytes": 1156,
+    "sha256": "644bf34466b092913ecb00b5495db77ff9c519782a72a4c97530abd77cd9ceff"
+  },
+  {
+    "path": "python/method/build_index.py",
+    "bytes": 9821,
+    "sha256": "a6cdff99e2a7fd7581e3352785276e44cc34d378b19a4eff84e888314f85593d"
+  },
+  {
+    "path": "python/method/claims.py",
+    "bytes": 14328,
+    "sha256": "8553b3696d489cdc2a850b0a8d39b58765371251a46a8024cab9d084691ed53a"
+  },
+  {
+    "path": "python/method/mutate.py",
+    "bytes": 19902,
+    "sha256": "4c89e2a2dd7eb8ef4cb4858e379d94276f669731e9bdcdca79336ecc6bf20e4a"
+  },
+  {
+    "path": "python/method/mutation_results.json",
+    "bytes": 214829,
+    "sha256": "7ddf44542fd0b223e565964591b760f3092c9b372633708a14437e8dd9e2df05"
+  },
+  {
+    "path": "python/method/props.py",
+    "bytes": 6931,
+    "sha256": "10a38e9c8b4bd6e7b5fc8b9c00b5e8aadf9d3673dc262c5078157cc022893611"
+  },
+  {
+    "path": "python/method/reference_sim.py",
+    "bytes": 2978,
+    "sha256": "4c41ae6bb7b28d592139851bff47fa863df26d098e6dba8118ee64b5a90476f0"
+  },
+  {
+    "path": "python/method/run_suite.py",
+    "bytes": 1759,
+    "sha256": "19064c8b357800bbeb2aa5be1bbfd6914de0f40b8e34847e51e0b5718122363d"
+  },
+  {
+    "path": "python/method/suite_results.json",
+    "bytes": 1237,
+    "sha256": "99f075c680f08c10d0423b88c1da2fb49c7fe5019ba887806d1594d6439669f9"
+  },
+  {
+    "path": "python/method/triage.json",
+    "bytes": 2413,
+    "sha256": "4feb81fe276dc372b5079e4bd4a0a79084232064ab27c483d3fb0723331a26d3"
+  },
+  {
+    "path": "python/orchestrator/__init__.py",
+    "bytes": 401,
+    "sha256": "17cb55bc4d4c396f0346daed104754aae00d7adcd8b83c72c28a4d73a60b6436"
+  },
+  {
+    "path": "python/orchestrator/pipeline.py",
+    "bytes": 7860,
+    "sha256": "3474b86af9fe321039acd030abafc13532b3ee0674d0bafa96a836580857318b"
+  },
+  {
+    "path": "python/orchestrator/wasm_bridge.py",
+    "bytes": 3205,
+    "sha256": "febf909c4b562991371b87a5fdbaf64d9f1bb0b99fcb9e74c340bf2b8f983eff"
+  },
+  {
+    "path": "python/qmodule/__init__.py",
+    "bytes": 88,
+    "sha256": "3a3431406b797020c52da9683f4b1d842d409e580e9807d760536edb4b77810d"
+  },
+  {
+    "path": "python/qmodule/circuits/bell.qasm",
+    "bytes": 282,
+    "sha256": "79f1b061ac454b6af1007fafe3da8afa5f13913d30d88aab2b6e25848d262a29"
+  },
+  {
+    "path": "python/qmodule/circuits/ry_node_update.qasm",
+    "bytes": 1172,
+    "sha256": "e5f22bce51b1a6478fcedc2c6c521f32e2096fdf0b4c35d5aa12278c6d3093ac"
+  },
+  {
+    "path": "python/qmodule/qasm_module.py",
+    "bytes": 3258,
+    "sha256": "a588ed8614d4d5ac9d60ad9fd89fdc7632419795ba6b1b29cca1d90dc5add128"
+  },
+  {
+    "path": "python/qmodule/statevector_sim.py",
+    "bytes": 14271,
+    "sha256": "5493121a0addb9919400263c3eb4f174e92c5a54c5ed56c55fa7cbe41f35065d"
+  },
+  {
+    "path": "python/snn/__init__.py",
+    "bytes": 161,
+    "sha256": "e8ee5f6255b57cba2d9543b2394fb50e4c83b2e83c5d69f5d87060802a042b93"
+  },
+  {
+    "path": "python/snn/lif_neuron.py",
+    "bytes": 2855,
+    "sha256": "670b7378b684fff42aaf8cce49aee51a3af1a327f5d26f776f91f27ec9d0bd76"
+  },
+  {
+    "path": "python/tests/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "python/tests/test_composition_wiring.py",
+    "bytes": 11847,
+    "sha256": "b057b19262276958b0279bedf2f8eebdbe76699558a7ea782b0aef0999ec8a87"
+  },
+  {
+    "path": "python/tests/test_gnn_message_passing.py",
+    "bytes": 13893,
+    "sha256": "a32a6f1a4d4d009e4ff0c25da932b3e2e266806781442d58f3824be66df27749"
+  },
+  {
+    "path": "python/tests/test_lif_neuron.py",
+    "bytes": 7361,
+    "sha256": "42aad78bbd346bbebf24a85eb635c8451cbf80e5233e3ca42a6ab94579bfee33"
+  },
+  {
+    "path": "python/tests/test_pipeline_smoke.py",
+    "bytes": 15855,
+    "sha256": "f2d887b768bd1c17a7140062a48c45ab28af04d00251ef5b23021dd2acd16ab2"
+  },
+  {
+    "path": "python/tests/test_properties.py",
+    "bytes": 18444,
+    "sha256": "1fbde29045abcb8d72ac6ec46fd4080a43b03e6668ac56522a0bd4b91e5f39c0"
+  },
+  {
+    "path": "python/tests/test_qasm_gate_coverage.py",
+    "bytes": 9465,
+    "sha256": "1a58cb1e147d559be7aa136b0723ab7aed2092f865da23f2b13ca5dafa2c50fa"
+  },
+  {
+    "path": "python/tests/test_qasm_parser_robustness.py",
+    "bytes": 7343,
+    "sha256": "d5375ecf989e45582fcb240de82980b653ba44ddcd287286065e0fa6f417e87d"
+  },
+  {
+    "path": "python/tests/test_qasm_sim.py",
+    "bytes": 5281,
+    "sha256": "95e46c6a016f8174f640c134b28bd4795e2c4f70e6d00bde544239d7027845b4"
+  },
+  {
+    "path": "python/tests/test_shared_space.py",
+    "bytes": 8101,
+    "sha256": "e2f8c60d9e5e958d1e8d154f10dd680bfa6a94855af9599b70d411dcee3c341c"
+  },
+  {
+    "path": "python/tests/test_wasm_core_bounds.py",
+    "bytes": 8086,
+    "sha256": "75a9dec3882b599bab11b4eeff0bfeaec680ba90eec5b0d94e53994978410b1e"
+  },
+  {
+    "path": "README.md",
+    "bytes": 6850,
+    "sha256": "7a03f5fb1d31edaa69477c6a7805992dfdbf82bb1223ddff20c60a11d9c93d1e"
+  },
+  {
+    "path": "run_method.sh",
+    "bytes": 1193,
+    "sha256": "c0b9bad4ca485b21f407360563f42e5052d37fc9d76e6985e6a502dbe8e8c2e3"
+  },
+  {
+    "path": "run_tests.sh",
+    "bytes": 881,
+    "sha256": "1363c079d7d106d3a03ddb78247cb426b4c41c1b8e688412b6ba291762113637"
+  },
+  {
+    "path": "SCALING.md",
+    "bytes": 9935,
+    "sha256": "49f5b009bc27d214e9e39d4c0e880262728b6e2c35ce41b41beb4b83bd399703"
+  },
+  {
+    "path": "VALIDATION.md",
+    "bytes": 28231,
+    "sha256": "0ff9cb6b9a798c2dd1eabb2ca94282472b51e0f0c5cb8480cf50fdde5dc26cd2"
+  },
+  {
+    "path": "wasm-core/build.sh",
+    "bytes": 861,
+    "sha256": "296838956056392a29f66fad216f91a67ce3392bdabd82f1a6843e0c64fea73f"
+  },
+  {
+    "path": "wasm-core/orchestrator_core.c",
+    "bytes": 4246,
+    "sha256": "1270477715021e723f1dfb909267adbb6ff2a049513fa11ff0cfd18958ce8e72"
+  },
+  {
+    "path": "wasm-core/orchestrator_core.wasm",
+    "bytes": 560,
+    "sha256": "5d2f78078457b8d7e133698d7716af7775eb5491464069dea1b49d52e82dbbf1"
+  },
+  {
+    "path": "wasm-core/run_tick_harness.mjs",
+    "bytes": 2887,
+    "sha256": "2b56f1de448d879cec2fdabe0c728869854d9431055f4a9f16a2f0b72e1e2d75"
+  }
+]
