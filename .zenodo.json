@@ -1,0 +1,31 @@
+{
+  "title": "Treating QASM as WASM: Persistent Runtime Reference Implementation",
+  "upload_type": "software",
+  "version": "0.2.0",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Weis, Aaron Michael",
+      "orcid": "0009-0002-1906-148X"
+    }
+  ],
+  "description": "Experimental reference software combining sparse graph aggregation, LIF spiking control and a classically simulated quantum-circuit interface. Version 0.2.0 adds a persistent Node-hosted WebAssembly LIF engine with explicit lifecycle management and cross-implementation tests. This is an interface analogy, not a QASM-to-WASM compiler. No training, real-QPU result, quantum advantage or production-scale performance is established. Code is MIT licensed; the accompanying Revision 4 paper is CC BY 4.0 and describes the earlier reviewed baseline, with M2 changes documented separately. AI assistance is disclosed in the manuscript.",
+  "keywords": [
+    "OpenQASM",
+    "WebAssembly",
+    "research software",
+    "spiking neural networks",
+    "integration testing",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/OneiroNexus/QASM-WASM/blob/371578d144d30aa412b30fb839cdd2daeea9fb88/docs/Treating-QASM-as-WASM-rev4.pdf",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
+    }
+  ]
+}
+

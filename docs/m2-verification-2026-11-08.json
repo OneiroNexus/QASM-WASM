@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "node": "v24.22.1",
+  "platform": "Windows",
+  "wasm_sha256": "5d2f78078457b8d7e133698d7716af7775eb5491464069dea1b49d52e82dbbf1",
+  "wasm_rebuilt_by_this_command": false,
+  "modules": [
+    {
+      "module": "test_qasm_sim",
+      "exit_code": 0,
+      "elapsed_seconds": 0.9238213999778964,
+      "pass_markers": 25,
+      "fail_markers": 0,
+      "skip_lines": 0,
+      "stderr_bytes": 0,
+      "passed": true
+    },
+    {
+      "module": "test_qasm_gate_coverage",
+      "exit_code": 0,
+      "elapsed_seconds": 1.6996959999960382,
+      "pass_markers": 30,
+      "fail_markers": 0,
+      "skip_lines": 0,
+      "stderr_bytes": 0,
+      "passed": true
+    },
+    {
+      "module": "test_qasm_parser_robustness",
+      "exit_code": 0,
+      "elapsed_seconds": 1.7275954999786336,
+      "pass_markers": 37,
+      "fail_markers": 0,
+      "skip_lines": 0,
+      "stderr_bytes": 0,
+      "passed": true
+    },
+    {
+      "module": "test_lif_neuron",
+      "exit_code": 0,
+      "elapsed_seconds": 3.613758699997561,
+      "pass_markers": 306,
+      "fail_markers": 0,
+      "skip_lines": 0,
+      "stderr_bytes": 0,
+      "passed": true
+    },
+    {
+      "module": "test_gnn_message_passing",
+      "exit_code": 0,
+      "elapsed_seconds": 1.7771840000059456,
+      "pass_markers": 52,
+      "fail_markers": 0,
+      "skip_lines": 0,
+      "stderr_bytes": 0,
+      "passed": true
+    },
+    {
+      "module": "test_shared_space",
+      "exit_code": 0,
+      "elapsed_seconds": 1.8934136999887414,
+      "pass_markers": 24,
+      "fail_markers": 0,
+      "skip_lines": 0,
+      "stderr_bytes": 0,
+      "passed": true
+    },
+    {
+      "module": "test_pipeline_smoke",
+      "exit_code": 0,
+      "elapsed_seconds": 6.295447599986801,
+      "pass_markers": 649,
+      "fail_markers": 0,
+      "skip_lines": 0,
+      "stderr_bytes": 0,
+      "passed": true
+    },
+    {
+      "module": "test_composition_wiring",
+      "exit_code": 0,
+      "elapsed_seconds": 2.248526400013361,
+      "pass_markers": 135,
+      "fail_markers": 0,
+      "skip_lines": 0,
+      "stderr_bytes": 0,
+      "passed": true
+    },
+    {
+      "module": "test_wasm_core_bounds",
+      "exit_code": 0,
+      "elapsed_seconds": 3.9251414999889676,
+      "pass_markers": 18,
+      "fail_markers": 0,
+      "skip_lines": 0,
+      "stderr_bytes": 0,
+      "passed": true
+    },
+    {
+      "module": "test_properties",
+      "exit_code": 0,
+      "elapsed_seconds": 7.073485700006131,
+      "pass_markers": 10,
+      "fail_markers": 0,
+      "skip_lines": 0,
+      "stderr_bytes": 0,
+      "passed": true
+    },
+    {
+      "module": "test_persistent_wasm",
+      "exit_code": 0,
+      "elapsed_seconds": 12.382815299992217,
+      "pass_markers": 250,
+      "fail_markers": 0,
+      "skip_lines": 0,
+      "stderr_bytes": 0,
+      "passed": true
+    }
+  ],
+  "total_pass_markers": 1536,
+  "total_fail_markers": 0,
+  "total_skip_lines": 0,
+  "note": "PASS markers summarize checks, including seeded properties; they are not independent experiments. Historical ledgers are untouched.",
+  "report_correction": "The initial runner counted the phrase 'zero skips' as a skip. Parser now matches explicit [SKIP] markers. This report re-summarizes the unchanged captured outputs and exit codes; no test assertions were changed or rerun."
+}

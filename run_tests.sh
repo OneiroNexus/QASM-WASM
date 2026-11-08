@@ -10,7 +10,7 @@ bash wasm-core/build.sh || { echo "wasm-core build failed"; exit 1; }
 
 cd python
 FAILED=0
-for t in test_qasm_sim test_qasm_gate_coverage test_qasm_parser_robustness test_lif_neuron test_gnn_message_passing test_shared_space test_pipeline_smoke test_composition_wiring test_wasm_core_bounds test_properties; do
+for t in test_qasm_sim test_qasm_gate_coverage test_qasm_parser_robustness test_lif_neuron test_gnn_message_passing test_shared_space test_pipeline_smoke test_composition_wiring test_wasm_core_bounds test_properties test_persistent_wasm; do
   echo ""
   echo "== python3 -m tests.$t =="
   python3 -m "tests.$t"

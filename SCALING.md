@@ -1,3 +1,5 @@
+> M2 update: the persistent runtime is implemented in software version 0.2.0. See [docs/M2_RUNTIME.md](docs/M2_RUNTIME.md) for its current contract, tests and benchmark. The baseline text and historical counts below remain preserved; they do not include M2 evidence.
+
 > Historical scaffold document. Read [REVIEW_STATUS.md](REVIEW_STATUS.md) and Revision 4 for current corrections, evidence limits and rerun status. Original text follows.
 
 # Scaling: from this toy scaffold to 140M–20B nodes

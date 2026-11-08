@@ -1,3 +1,13 @@
+# M2 software update — November 8, 2026
+
+Version 0.2.0 implements a persistent Node/WASM LIF host while retaining the original one-shot engine. The final local suite passed all eleven modules: 1,536 PASS entries (250 M2), no failures/skips/nonzero exits or stderr. See [M2 runtime contract and measured benchmark](docs/M2_RUNTIME.md).
+
+The numerical C kernel, supplied binary, Revision 4 paper and historical mutation ledgers are unchanged. The newer Python bridge, server and tests are covered by M2 behavioral/cross-implementation tests, not the historical mutation score. The original ten test files were not edited. Source-to-binary rebuild evidence must come from the separate compiler workflow; the local run used the supplied binary.
+
+Below is the preserved baseline review report. Its statements about unchanged production code and ten modules refer to baseline commit 371578d, not the M2 addition.
+
+---
+
 # Review and reproducibility status
 
 Updated November 8, 2026. This release preserves the supplied implementation and original experiment records, with a revised manuscript and current release notes. The original explanatory documents below are historical and must be read alongside these corrections.

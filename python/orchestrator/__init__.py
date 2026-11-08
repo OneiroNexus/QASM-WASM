@@ -7,7 +7,7 @@ from .pipeline import (
     run_pipeline,
     run_tick,
 )
-from .wasm_bridge import wasm_available, wasm_lif_engine
+from .wasm_bridge import PersistentWasmLifEngine, wasm_available, wasm_lif_engine
 
 __all__ = [
     "LifEngine",
@@ -19,4 +19,5 @@ __all__ = [
     "run_tick",
     "wasm_available",
     "wasm_lif_engine",
+    "PersistentWasmLifEngine",
 ]

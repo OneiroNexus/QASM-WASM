@@ -1,21 +1,11 @@
 cff-version: 1.2.0
-message: "Please cite this research scaffold and its accompanying paper."
+message: "Please cite this software release. The accompanying Revision 4 paper has a separate version and license."
 type: software
-title: "Treating QASM as WASM: Hybrid Graph Computation Scaffold"
+title: "Treating QASM as WASM: Persistent Runtime Reference Implementation"
+version: "0.2.0"
 authors:
   - family-names: Weis
     given-names: Aaron Michael
     orcid: "https://orcid.org/0009-0002-1906-148X"
 repository-code: "https://github.com/OneiroNexus/QASM-WASM"
 license: MIT
-date-released: 2026-11-08
-preferred-citation:
-  type: report
-  title: "Treating QASM as WASM"
-  version: "Revision 4"
-  authors:
-    - family-names: Weis
-      given-names: Aaron Michael
-      orcid: "https://orcid.org/0009-0002-1906-148X"
-  year: 2026
-  url: "https://github.com/OneiroNexus/QASM-WASM"
